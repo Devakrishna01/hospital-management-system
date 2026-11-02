@@ -1,0 +1,66 @@
+.book-appointment-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #f5f7fb;
+  box-sizing: border-box;
+}
+.appointment-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.appointment-header h1 {
+  margin-bottom: 10px;
+}
+.appointment-header p {
+  color: #666;
+}
+
+.appointment-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 10px;
+}
+.form-group {
+  padding: 10px 10px;
+}
+
+.confirm-appointment,
+.final-confirm-button {
+  background-color: rgb(106, 106, 226);
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 15px 20px;
+  border: none;
+}
+.confirm-appointment:hover,
+.final-confirm-button:hover {
+  background-color: rgb(67, 67, 218);
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.appointment-details {
+  padding: 20px;
+}
+.appointment-details p {
+  line-height: 1.6;
+  padding: 10px;
+}
+.appointment-confirmation {
+  padding: 10px;
+}
+.appointment-confirmation h2 {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,57 @@
+.patient-loginpage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.page-header h2 {
+  margin-bottom: 8px;
+}
+.page-header p {
+  margin: 0;
+  color: #666;
+}
+.login-details {
+  width: 350px;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.login-details label {
+  display: block;
+  margin-bottom: 6px;
+}
+.login-details input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 18px;
+  box-sizing: border-box;
+}
+
+.login-details button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #1677ff;
+  color: white;
+  cursor: pointer;
+}
+
+.register-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-text span {
+  color: #1677ff;
+  cursor: pointer;
+}

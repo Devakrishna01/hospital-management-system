@@ -1,0 +1,43 @@
+.my-appointments-page {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #f5f7fb;
+  box-sizing: border-box;
+}
+
+.my-appointments-page h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.appointment-card {
+  width: 600px;
+  max-width: 100%;
+  margin: 0 auto 20px;
+  padding: 25px;
+  background-color: white;
+  border-radius: 12px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.appointment-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.appointment-card p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.appointment-card strong {
+  display: inline-block;
+  min-width: 100px;
+}
+
+.appointment-card:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}

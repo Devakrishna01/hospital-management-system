@@ -1,0 +1,50 @@
+.login-page {
+  min-height: 100vh;
+  padding: 60px 70px;
+  background-color: #f4f9ff;
+  text-align: center;
+  box-sizing: border-box;
+}
+.login-header h1 {
+  font-size: 40px;
+  color: #12305a;
+  margin-bottom: 10px;
+}
+.login-header p {
+  font-size: 18px;
+  color: #12305a;
+  margin-bottom: 30px;
+}
+.role-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  gap: 30px;
+  margin: 0;
+}
+.role-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 35, 25px;
+  width: 280px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
+}
+
+.role-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.role-card h2 {
+  margin-bottom: 10px;
+}
+.role-card p {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+.role-card button {
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}

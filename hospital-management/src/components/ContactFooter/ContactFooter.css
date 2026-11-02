@@ -1,0 +1,43 @@
+.contactfooter {
+  display: flex;
+  min-height: 350px;
+}
+.contact {
+  width: 45%;
+  padding: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.contact-header h2 {
+  font-size: 36px;
+}
+.contact-header p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.contact-box h3 {
+  font-size: 24px;
+}
+.contact-box p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.footer {
+  width: 55%;
+  padding: 50px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.footer h3 {
+  font-size: 24px;
+}
+.footer-links a {
+  text-decoration: none;
+  color: blue;
+  margin: 0 10px;
+}
+.footer p {
+  font-size: 16px;
+  line-height: 1.6;
+}

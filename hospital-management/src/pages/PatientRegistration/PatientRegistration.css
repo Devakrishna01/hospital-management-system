@@ -1,0 +1,98 @@
+.registration-page {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #f5f7fb;
+  box-sizing: border-box;
+}
+
+.registration-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.registration-header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.registration-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.registration-form {
+  width: 500px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #1677ff;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1677ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #095dcc;
+}
+
+.login-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-text span {
+  margin-left: 5px;
+  color: #1677ff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-text span:hover {
+  text-decoration: underline;
+}

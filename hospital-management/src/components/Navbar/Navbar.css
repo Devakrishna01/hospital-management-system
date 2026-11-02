@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  padding: 20px 15px;
+  background-color: aqua;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+.hospitalnavbar {
+  font-size: 30px;
+}
+.navbar-links {
+  display: flex;
+  margin-left: 100px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: #222;
+
+  font-size: 20px;
+}
+.login-button {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #1677ff;
+}

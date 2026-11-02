@@ -1,0 +1,51 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  padding: 30px 60px;
+  background-color: #f4f9ff;
+  min-width: 550px;
+  margin-top: 70px;
+}
+
+.hero-content {
+  width: 45%;
+}
+.hero-image {
+  width: 55%;
+}
+
+.appointment-button {
+  padding: 14px 28px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #1677ff;
+}
+.appointment-button:hover {
+  background-color: #0d5dcc;
+}
+
+.moto {
+  font-size: 52px;
+  color: #12305a;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.small-moto {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #5f6f82;
+  margin-bottom: 30px;
+}
+
+.hero-section-image {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 16px;
+  display: block;
+}

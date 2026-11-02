@@ -1,0 +1,55 @@
+.treatments {
+  padding: 70px 60px;
+  background-color: #ffffff;
+}
+
+.treatments-header {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.treatments-header h2 {
+  font-size: 36px;
+  color: #12305a;
+  margin-bottom: 15px;
+}
+.treatments-header p {
+  font-size: 24px;
+  line-height: 1.1;
+  margin-bottom: 15px;
+}
+
+.treatments-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 25px;
+}
+
+.treatment-card {
+  background-color: #f4f9ff;
+  border-radius: 12px;
+  text-align: center;
+  padding: 30px;
+  transition: 0.3s;
+}
+.treatment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.treatment-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.treatment-card h3 {
+  font-size: 21px;
+  color: #12305a;
+  margin-bottom: 10px;
+}
+.treatment-card p {
+  color: #5f6f82;
+  line-height: 1.6;
+  margin: 0;
+}

@@ -1,0 +1,44 @@
+.profile-page {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #f5f7fb;
+}
+
+.profile-page h1 {
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.profile-card {
+  max-width: 600px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.profile-card p {
+  margin: 18px 0;
+  font-size: 17px;
+}
+
+.profile-card strong {
+  display: inline-block;
+  width: 140px;
+}
+
+.profile-page button {
+  margin-top: 25px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.profile-page button:hover {
+  background-color: #1d4ed8;
+}

@@ -1,0 +1,41 @@
+.medical-history-page {
+  min-height: 100vh;
+  padding: 40px;
+  background-color: #f5f7fb;
+}
+
+.medical-history-page h1 {
+  margin-bottom: 30px;
+}
+
+.medical-records {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.medical-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.medical-card h2 {
+  margin-bottom: 15px;
+}
+
+.medical-card p {
+  margin: 8px 0;
+}
+button {
+  margin-top: 25px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}

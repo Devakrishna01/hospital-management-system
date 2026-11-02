@@ -1,0 +1,57 @@
+.doctor-login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fb;
+}
+
+.doctor-login-form {
+  width: 350px;
+  padding: 35px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.doctor-login-page h1 {
+  position: absolute;
+  top: 80px;
+  font-size: 32px;
+}
+
+.doctor-login-form input {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.doctor-login-form input:focus {
+  border-color: #2563eb;
+}
+
+.doctor-login-form button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.doctor-login-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.doctor-login-form p {
+  color: red;
+  margin: 0;
+  font-size: 14px;
+}
